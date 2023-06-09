@@ -15,6 +15,8 @@ import java.util.Optional;
 @Service
 public class CommentService {
 
+    private int test;
+
     private CommentRepository commentRepository;
     private UserService userService;
     private PostService postService;
